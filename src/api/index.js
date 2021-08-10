@@ -1,5 +1,5 @@
 // 统一请求路径前缀在libs/axios.js中修改
-import { getRequest, postRequest, putRequest, getNoAuthRequest, postNoAuthRequest } from '@/libs/axios';
+import { getRequest, postRequest, getNoAuthRequest, postNoAuthRequest } from '@/libs/axios';
 
 
 
@@ -24,7 +24,7 @@ export const userInfo = (params) => {
 }
 // 注册
 export const regist = (params) => {
-    return postNoAuthRequest('/user/regist', params)
+    return postNoAuthRequest('/user/register', params)
 }
 // 初始化验证码
 export const initCaptcha = (params) => {
