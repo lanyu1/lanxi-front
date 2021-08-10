@@ -3,7 +3,6 @@ import { getStore, setStore } from './storage'
 import { router } from '../router/index'
 import { Message } from 'view-design'
 import Cookies from 'js-cookie'
-import { config } from 'vue/types/umd'
 // 统一请求路径前缀
 let base = '/lanxi'
 // 超时设定
